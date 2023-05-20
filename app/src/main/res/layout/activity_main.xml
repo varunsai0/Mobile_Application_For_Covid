@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CovidSymptomsMainPage">
+
+    <TextureView
+        android:id="@+id/textureView"
+        android:layout_width="205dp"
+        android:layout_height="210dp"
+        android:layout_marginStart="87dp"
+        android:layout_marginTop="77dp"
+        android:layout_marginEnd="119dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.206" />
+
+    <Button
+        android:id="@+id/Symptoms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="Symptoms"
+        app:layout_constraintBottom_toTopOf="@+id/uploadSign"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/uploadSign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Upload Signs"
+        android:layout_marginBottom="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/heartRate"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/heartRate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Measure Heart Rate"
+        android:layout_marginBottom="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/respiratoryRate"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/respiratoryRate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Measure Respiratory rate"
+        android:layout_marginBottom="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/heartRateValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="133dp"
+        android:text="Heart Rate Value:"
+        app:layout_constraintBottom_toTopOf="@+id/heartRate"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/respiratoryRateValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="87dp"
+        android:text="Respiratory Rate Value:"
+        app:layout_constraintBottom_toTopOf="@+id/respiratoryRate"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="624dp" />
+
+    <TextView
+        android:id="@+id/heartRateTimer"
+        android:layout_width="128dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="159dp"
+        android:text=""
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="295dp" />
+
+    <TextView
+        android:id="@+id/respiratoryTimer"
+        android:layout_width="95dp"
+        android:layout_height="18dp"
+        android:layout_marginStart="158dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="191dp"
+        android:layout_marginBottom="18dp"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/respiratoryRate" />
+
+    <Button
+        android:id="@+id/Databasebutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Upload Database"
+        tools:layout_editor_absoluteX="248dp"
+        tools:layout_editor_absoluteY="348dp" />
+
+    <Button
+        android:id="@+id/locationButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="340dp"
+        android:text="Location"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.811"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

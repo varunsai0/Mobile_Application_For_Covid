@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/svaka4/AndroidStudioProjects/MyApplication3/app/src/main/res/layout/activity_main.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/svaka4/AndroidStudioProjects/MyApplication3/app/src/main/res/layout/activity_symptoms.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/svaka4/AndroidStudioProjects/MyApplication3/app/src/main/res/layout/location_page.xml" value="0.121875" />
+        <entry key="..\:/Users/svaka4/AndroidStudioProjects/MyApplication3/app/src/main/res/layout/login_page.xml" value="0.1078125" />
+        <entry key="..\:/Users/svaka4/AndroidStudioProjects/MyApplication3/app/src/main/res/layout/uploadtoserver.xml" value="0.1598731884057971" />
+        <entry key="..\:/Users/svaka4/AndroidStudioProjects/MyApplication3/app/src/main/res/xml/network_security_config.xml" value="0.121875" />
+        <entry key="..\:/Users/svaka4/AppData/Local/Android/Sdk/platforms/android-32/data/res/layout/simple_spinner_item.xml" value="0.1793478260869565" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

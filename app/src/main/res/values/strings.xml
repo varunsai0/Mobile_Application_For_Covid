@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Diashield</string>
+
+    <string-array name="covid_symptoms_array">
+        <item>Nausea</item>
+        <item>Headache</item>
+        <item>Diarrhea</item>
+        <item>Soar Throat</item>
+        <item>Fever</item>
+        <item>Muscle Ache</item>
+        <item>Loss of Smell or Taste</item>
+        <item>Cough</item>
+        <item>Shortness of Breath</item>
+        <item>Feeling tired</item>
+    </string-array>
+</resources>
